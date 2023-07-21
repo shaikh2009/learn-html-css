@@ -1,27 +1,29 @@
 body{
-
-    background: linear-gradient(to bottom ,#FFFF55,#FF5555 ,#FF55FF,#55FF55  );
-    background: radial-gradient(circle, #ff0000, #3ca13c);
-}
-
-h1{
-    text-align: center;
-}
-
-p{
-    text-align: start;
+    background-image: url(https://cdn.wallpapersafari.com/22/72/0TDxAP.jpg),url(image/image.4k.jpg );
+    background-repeat: no-repeat; 
+    background-size: 50%;
+    background-position: 0% 0%,100% 0%;
     
 }
 
-images{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+
+
+
+
+
+
+.box{
+    width: 800px;
+    height: 380px;
+    margin: 150px auto;
+    color: #000;
+    border-radius: 20px;
+    border: 5px dashed #000;
+    background-color: rgba(0,0 ,0 ,.25 );
+
 }
-
-
-
-.video-container {
-    text-align: center;
-    
+.box h1,p{
+    margin: 20px 40px;
+    float: left;
+    text-shadow: 2px 2px 2px #000;
 }
