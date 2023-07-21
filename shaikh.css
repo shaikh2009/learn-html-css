@@ -1,7 +1,8 @@
 body{
 
     background: linear-gradient(to bottom ,#FFFF55,#FF5555 ,#FF55FF,#55FF55  );
-    background: radial-gradient(circle, #ff0000, #3ca13c);
+    background: radial-gradient(circle, #ff0000, #512E5F );
+    background-position: bottom;
 }
 
 h1{
@@ -17,6 +18,7 @@ images{
     display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -25,7 +27,5 @@ images{
     text-align: center;
     
 }
-.try {
-    background-color: #ff0000;
-    color: #3ca13c;
-}
+
+
