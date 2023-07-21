@@ -1,0 +1,31 @@
+body{
+
+    background: linear-gradient(to bottom ,#FFFF55,#FF5555 ,#FF55FF,#55FF55  );
+    background: radial-gradient(circle, #ff0000, #3ca13c);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: start;
+    
+}
+
+images{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.video-container {
+    text-align: center;
+    
+}
+.try {
+    background-color: #ff0000;
+    color: #3ca13c;
+}
